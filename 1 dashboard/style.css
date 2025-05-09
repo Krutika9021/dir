@@ -1,0 +1,11 @@
+
+  
+  #sidebar {
+    width: 200px;
+    min-height: 100vh;
+  }
+
+  .container {
+    flex-grow: 1;
+  }
+  
