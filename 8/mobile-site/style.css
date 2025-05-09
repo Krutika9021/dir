@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.ui-page {
+    padding: 10px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+}
+
+.ui-content {
+    padding: 20px;
+}
+
+/* Tab Navigation Styles */
+.ui-navbar {
+    background-color: #3498db;
+}
+
+.ui-navbar .ui-btn {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.ui-navbar .ui-btn-active {
+    background-color: #2980b9;
+    font-weight: bold;
+}
+
+.ui-navbar .ui-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Header Styles */
+[data-role="header"] {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+[data-role="header"] h1 {
+    font-size: 1.8em;
+}
+
+/* Footer Styles (if needed) */
+[data-role="footer"] {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Content Section */
+.ui-content p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Custom Button Style */
+.ui-btn {
+    background-color: #3498db;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.ui-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Main Container Padding */
+.ui-content {
+    padding: 20px;
+}
+
+/* Adjustments for Small Devices */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .ui-content p {
+        font-size: 1em;
+    }
+
+    .ui-btn {
+        width: 100%;
+    }
+}
